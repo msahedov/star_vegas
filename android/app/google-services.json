@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555764244847",
+    "project_id": "emstveg-14658",
+    "storage_bucket": "emstveg-14658.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555764244847:android:676431a6164f95b49c089a",
+        "android_client_info": {
+          "package_name": "emotion.star.vegs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555764244847-d3jgghuirkc5g9ehhqqfbm7q0hgg7m7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK0P1J--e8J8RTe1eBkluGB7w0VRorfWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555764244847-d3jgghuirkc5g9ehhqqfbm7q0hgg7m7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
