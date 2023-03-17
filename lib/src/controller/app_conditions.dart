@@ -1,4 +1,5 @@
 import 'package:battery_info/battery_info_plugin.dart';
+import 'package:check_vpn_connection/check_vpn_connection.dart';
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 
 class AppConditions {
@@ -6,9 +7,9 @@ class AppConditions {
     try {
       String str = await remote();
       bool batteryLvl = await checkBatteryLevel();
-      // bool isVpnActive = await CheckVpnConnection.isVpnActive();
+      bool isVpnActive = await CheckVpnConnection.isVpnActive();
 
-      if (str.isEmpty || batteryLvl) {
+      if (str.isEmpty || batteryLvl || isVpnActive) {
         return '';
       } else {
         return str;
